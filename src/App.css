@@ -1,4 +1,8 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*body {
   background-color: rgb(65, 61, 61);
   color: rgb(243, 5, 5);
 }
@@ -29,8 +33,8 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #f0f409; /* Change the color on focus */
-  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); /* Add a box shadow on focus */
+  border-color: #f0f409;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
 }
 
 .button {
@@ -177,4 +181,4 @@ input:focus {
     width: "100%";
     margin: 1rem;
   }
-}
+}*/
