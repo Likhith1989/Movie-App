@@ -10,13 +10,16 @@ const SignIn = () => {
     e.preventDefault();
     const user = JSON.stringify({ usern: username, passw: password });
     try {
-      const response = await fetch("http://localhost:8080/signin", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: user,
-      });
+      const response = await fetch(
+        "https://movie-app-pn5u.onrender.com/signin",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: user,
+        }
+      );
       const data = await response.json();
       if (data.result === "NoUser") {
         alert("Username/Password Invalid");

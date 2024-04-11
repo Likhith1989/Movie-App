@@ -10,7 +10,7 @@ const SignUp = () => {
     e.preventDefault();
     const user = JSON.stringify({ usern: username, passw: password });
     try {
-      const response = await fetch("http://localhost:8080/", {
+      const response = await fetch("https://movie-app-pn5u.onrender.com/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

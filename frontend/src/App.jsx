@@ -2,7 +2,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import SearchResults from "./components/SearchResults";
-import SignUp from "./components/signup";
+import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
 import "./App.css";
 
