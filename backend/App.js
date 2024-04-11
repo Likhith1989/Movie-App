@@ -5,7 +5,9 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const jwtpass = "eq34nfdn4";
 
-mongoose.connect("mongodb://localhost:27017/netflixclone");
+mongoose.connect(
+  "mongodb+srv://likhithb04:liki2004@cluster0.wogxcs8.mongodb.net/movieapp"
+);
 
 const Usern = mongoose.model("User", {
   username: String,
